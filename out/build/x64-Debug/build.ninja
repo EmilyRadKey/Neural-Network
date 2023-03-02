@@ -41,40 +41,41 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = E$:\GitHub\Neural-Network\out\build\x64-Debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target Main
+# Object build statements for EXECUTABLE target Neural_Network
 
 
 #############################################
-# Order-only phony target for Main
+# Order-only phony target for Neural_Network
 
-build cmake_object_order_depends_target_Main: phony || CMakeFiles\Main.dir
+build cmake_object_order_depends_target_Neural_Network: phony || CMakeFiles\Neural_Network.dir
 
-build CMakeFiles\Main.dir\Main.cpp.obj: CXX_COMPILER__Main_Debug E$:\GitHub\Neural-Network\Main.cpp || cmake_object_order_depends_target_Main
+build CMakeFiles\Neural_Network.dir\Main.cpp.obj: CXX_COMPILER__Neural_Network_Debug E$:\GitHub\Neural-Network\Main.cpp || cmake_object_order_depends_target_Neural_Network
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = CMakeFiles\Main.dir
-  OBJECT_FILE_DIR = CMakeFiles\Main.dir
-  TARGET_COMPILE_PDB = CMakeFiles\Main.dir\
-  TARGET_PDB = Main.pdb
+  INCLUDES = -IE:\GitHub\include\eigen3 -external:IE:\GitHub\Neural-Network\eigen-3.4.0 -external:W0
+  OBJECT_DIR = CMakeFiles\Neural_Network.dir
+  OBJECT_FILE_DIR = CMakeFiles\Neural_Network.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Neural_Network.dir\
+  TARGET_PDB = Neural_Network.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Main
+# Link build statements for EXECUTABLE target Neural_Network
 
 
 #############################################
-# Link the executable Main.exe
+# Link the executable Neural_Network.exe
 
-build Main.exe: CXX_EXECUTABLE_LINKER__Main_Debug CMakeFiles\Main.dir\Main.cpp.obj
+build Neural_Network.exe: CXX_EXECUTABLE_LINKER__Neural_Network_Debug CMakeFiles\Neural_Network.dir\Main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\Main.dir
+  OBJECT_DIR = CMakeFiles\Neural_Network.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\Main.dir\
-  TARGET_FILE = Main.exe
-  TARGET_IMPLIB = Main.lib
-  TARGET_PDB = Main.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\Neural_Network.dir\
+  TARGET_FILE = Neural_Network.exe
+  TARGET_IMPLIB = Neural_Network.lib
+  TARGET_PDB = Neural_Network.pdb
 
 
 #############################################
@@ -102,7 +103,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Main: phony Main.exe
+build Neural_Network: phony Neural_Network.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,7 +113,7 @@ build Main: phony Main.exe
 #############################################
 # Folder: E:/GitHub/Neural-Network/out/build/x64-Debug
 
-build all: phony Main.exe
+build all: phony Neural_Network.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

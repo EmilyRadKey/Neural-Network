@@ -199,12 +199,6 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 Eigen3_DIR:PATH=E:/GitHub/Neural-Network/eigen-3.4.0/build
 
 //Value Computed by CMake
-Neural_BINARY_DIR:STATIC=E:/GitHub/Neural-Network/out/build/x64-Debug
-
-//Value Computed by CMake
-Neural_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
 Neural_Network_BINARY_DIR:STATIC=E:/GitHub/Neural-Network/out/build/x64-Debug
 
 //Value Computed by CMake
@@ -212,18 +206,6 @@ Neural_Network_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 Neural_Network_SOURCE_DIR:STATIC=E:/GitHub/Neural-Network
-
-//Value Computed by CMake
-Neural_SOURCE_DIR:STATIC=E:/GitHub/Neural-Network
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=E:/GitHub/Neural-Network/out/build/x64-Debug
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=E:/GitHub/Neural-Network
 
 
 ########################
