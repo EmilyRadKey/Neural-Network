@@ -1,3 +1,0 @@
-E:/GitHub/Neural-Network/CMakeFiles/Neural_Network.dir
-E:/GitHub/Neural-Network/CMakeFiles/ALL_BUILD.dir
-E:/GitHub/Neural-Network/CMakeFiles/ZERO_CHECK.dir
