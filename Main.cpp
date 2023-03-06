@@ -1,5 +1,6 @@
 #include <iostream>
 #include <Eigen/Dense>
+#include <opencv2/core.hpp>
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
