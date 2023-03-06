@@ -1,0 +1,3 @@
+C:/Users/jmitc/source/repos/Neural-Network/out/build/x64-Debug/CMakeFiles/Neural_Network.dir
+C:/Users/jmitc/source/repos/Neural-Network/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/jmitc/source/repos/Neural-Network/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
